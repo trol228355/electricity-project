@@ -1,18 +1,131 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     color: #333;
-    margin: 0;
-    padding: 0;
     font-size: 24px;
 }
 
-main {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.calcc {
+    padding:0 2.5% 0 2.5%;
+}
+
+nav a {
+    color: white;
+    padding: 1%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+nav a:nth-child(3) {
+    margin-right: 58%;
+}
+nav a:first-child {
+    margin-left: 2.5%;
+}
+
+
+nav {
+    text-align: left;
+    padding-top: 1.5%;
+}
+
+.hb {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px 35px 15px 35px;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 3%;
+}
+
+.hh1 {
+    font-size: 100px;
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+
+.hhh1 {
+    font-size: 28px;
+    width: 50%;
+    margin-bottom: 7%;
+    margin-left: 3%;
+}
+
+.cac {
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(things/images/background_gradient.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid purple;
+}
+
+.con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.con1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.container1 {
+    width: 55%;
+    text-align: center;
+    background-color: #d3cbf5;
+    border-radius: 25px;
+    margin: 0 15px 0 15px;
+    height: 150%;
+}
+
+.container1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.container2 {
+    width: 36.74%;
+    text-align: center;
+}
+
+.container2 img {
+    width: 100%;
+    height: 75%;
+    border-radius: 25px;
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    margin: 15px 0px 15px 0px;
+    text-align: center;
+}
+
+.box img {
+    width: 15%;
+    height: 30%;
+}
+
+.ph2 {
+    text-align: center;
 }
 
 h1 {
@@ -22,16 +135,52 @@ h1 {
 
 h2{
     text-align: center;
+    margin: 0;
+}
+
+.ra {
+    text-align: center;
+    background-color: rgb(101, 25, 252);
+    border-radius: 50px;
+    padding: 100px;
+    color: white;
+    margin: 5% 10% 5% 10%;
+    font-size: 28px;
+}
+
+.soo {
+    background-image: url(things/images/background_h1.jpg);
+    background-size: cover;
+    height: 60%;
+    color: white;
+    width: 100%;
+    text-align: left;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.soo p {
+    grid-row: 2;
+    justify-self: left;
+    font-size: 100px;
+    margin: auto auto 5% 5%;
 }
 
 p, li {
-    line-height: 1.6;
-    margin-bottom: 15px;
+    margin-bottom: 3px;
 }
 
-span {
-    background-color: yellow;
-    padding: 5px;
+.calc {
+    background-color: #d3dfed;
+    margin: 2.5%;
+}
+
+.calc12 {
+    display: flex;
+}
+
+.calc1 {
+    margin: 0 15px 0 15px;
 }
 
 .calc h1 {
@@ -40,7 +189,6 @@ span {
 }
 
 .calc form {
-    max-width: 400px;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
@@ -49,7 +197,6 @@ span {
 }
 
 .calc label {
-    display: block;
     margin-bottom: 10px;
     color: #333;
 }
@@ -64,7 +211,6 @@ span {
 }
 
 .calc button {
-    display: block;
     width: 100%;
     padding: 10px;
     background-color: #4caf50;
@@ -87,38 +233,12 @@ span {
 }
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-    background-color: #333;
-    padding: 20px;
+    background-image: url('things/images/background_head.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 97%;
     color: #fff;
-    text-align: center;
-    transition: opacity 0.3s ease-in-out;
-}
-  
-.visible {
-    opacity: 1;
-}
-
-.hidden {
-   opacity: 0;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-  
-nav a {
-    text-decoration: none;
-    color: #fff;
-    margin: 0 10px;
+    padding-left: 60px;
 }
   
 section {
